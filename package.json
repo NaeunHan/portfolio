@@ -17,6 +17,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "homepage": "https://github.com/nanaHiii/portfolio.git",
   "eslintConfig": {
     "extends": [
       "react-app",
