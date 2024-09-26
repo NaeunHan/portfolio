@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/nanaHiii/portfolio.git/static/css/main.4278d2cd.css",
+    "main.js": "/nanaHiii/portfolio.git/static/js/main.bd2f063f.js",
+    "static/media/mimoticon.jpg": "/nanaHiii/portfolio.git/static/media/mimoticon.37cfcae0abad8a560a48.jpg",
+    "index.html": "/nanaHiii/portfolio.git/index.html",
+    "main.4278d2cd.css.map": "/nanaHiii/portfolio.git/static/css/main.4278d2cd.css.map",
+    "main.bd2f063f.js.map": "/nanaHiii/portfolio.git/static/js/main.bd2f063f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4278d2cd.css",
+    "static/js/main.bd2f063f.js"
+  ]
+}
