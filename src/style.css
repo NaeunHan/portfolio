@@ -87,15 +87,15 @@
         }
     }/*!sc*/
 
-    @keyframes cursor-animation {
+    /* @keyframes cursor-animation {
         0% { transform: scale(1); }
         50% { transform: scale(1.2); }
         100% { transform: scale(1); }
-    }
+    } */
 
     .jzBdnI .memoji  {
         cursor: pointer;
-        animation: cursor-animation 8s infinite;
+        /* animation: cursor-animation 8s infinite; */
     }
 
     .jzBdnI .memoji__box {
@@ -106,12 +106,19 @@
         font-size: 1.5rem;
         border-radius: 2rem;
         color: #EEEEEE;
-        left: 20%; /* 왼쪽으로 이동 */
-        top: 5%; /* 동그라미 위로 조정 */
-        transform: translate(-50%, 0); /* 중앙 정렬만 유지 */
+        left: 13%; /* 왼쪽으로 이동 */
+        top: 13%;
+        transform: translate(-50%, 0) rotate(-10deg);
         border: 0.2rem solid white;
         z-index: 1; /* 다른 요소 위에 표시 */
         box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* 그림자 추가 */
+    }
+
+    @media (max-width: 768px) {
+        .jzBdnI .memoji__box {
+            left: 75%; /* 오른쪽으로 이동 */
+            transform: translate(-230%, 0) rotate(-10deg);
+        }
     }
     
     .jzBdnI .memoji__svg {
@@ -131,12 +138,23 @@
     
     .jzBdnI .memoji__cursor {
         position: absolute;
-        left: 1.2rem;
+        left: 6rem;
         bottom: 1.2rem;
-        fill: #FFD700; /* 원하는 색으로 변경 가능 */
+        top: -5%;
+        fill: #ff4000; /* 원하는 색으로 변경 가능 */
         transform: rotate(60deg);
-        animation: blink 1s infinite; /* 깜빡이는 애니메이션 */
+        animation: blink 1s infinite; 
     }
+
+    /* 모바일에서 위로 위치 조정 */
+    @media (max-width: 768px) {
+    .jzBdnI .memoji__cursor {
+        bottom: -2rem; /* 위치 조정: 위로 이동 */
+        left: -1.5rem;
+        top: auto; /* top 속성 제거 */
+    }
+}
+    
     .jzBdnI .memoji__circle {
         width: 13rem;
         height: 13rem;
@@ -164,7 +182,7 @@
         position: absolute;
         top: 5rem;
         left: 20%; /* 중앙 정렬을 위해 50% 설정 */
-    transform: translateX(-50%); /* 왼쪽으로 반만 이동 */
+        transform: translateX(-50%); /* 왼쪽으로 반만 이동 */
         color: #030000;
         white-space: pre-line;
         text-align: center;
@@ -278,7 +296,7 @@
             font-size: 1.3rem;
             line-height: 200%;
             font-weight: 700;
-            padding-left: 7rem;
+            padding-left: 0;
         }
     }/*!sc*/
 
@@ -443,6 +461,7 @@
         position: relative;
         font-size: 3rem;
         font-weight: 800;
+        padding-top: 4rem
     }/*!sc*/
 
     @media (max-width: 420px) {
@@ -455,7 +474,7 @@
         content: "Strength.";
         position: absolute;
         color: #eeeeee;
-        top: -0.3rem;
+        top: 4rem;
         left: -0.3rem;
     }/*!sc*/
 
@@ -1187,13 +1206,13 @@
 
     .lbjQGU .text__content {
         color: #00ADB5;
-        animation: fadeOut 2s ease-in-out infinite;
+        /* animation: fadeOut 2s ease-in-out infinite; */
     }/*!sc*/
 
     .lbjQGU .text__content__border {
         color: transparent;
         -webkit-text-stroke: 0.02em #00ADB5;
-        animation: fadeOut 2s ease-in-out infinite;
+        /* animation: fadeOut 2s ease-in-out infinite; */
     }/*!sc*/
 
     @media (max-width: 420px) {

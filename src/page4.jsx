@@ -37,14 +37,14 @@ const Page4 = () => {
       about: 'Toy Project',
     },
     {
-      title: 'SQL 개발자 (SQLD) 자격 취득과정 수료',
+      title: 'SQLD 개발자 자격 취득과정 수료',
       date: '(2022.05 ~ 2022.07)',
       about: 'SQL + SQL 최적화 + 모델링',
     },
   ];
 
   return (
-    <div className="Page4__Container-ngi7t-0 jutkna flex" style={{ marginTop: '20px' }}>
+    <div className="Page4__Container-ngi7t-0 jutkna flex" style={{ marginTop: '80px' }}>
       <div className="card">
         <div
           style={{ right: '0.5rem', top: '-0.2rem', transform: 'rotate(40deg)' }}

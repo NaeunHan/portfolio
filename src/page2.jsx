@@ -21,7 +21,7 @@ const page2 = () => {
         <div className="ProgressBar__Container-rg7auc-0 cxLbLP">
           <div className="ProgressBar__Progress-rg7auc-1 fkIkpV"></div>
         </div>
-        <div className="Information__Container-sc-71vgk9-0 jzBdnI flex">
+        <div className="Information__Container-sc-71vgk9-0 jzBdnI">
           <div className="memoji">
             <div className="memoji__box">Developer</div>
             <svg width="177" height="178" fill="none" xmlns="http://www.w3.org/2000/svg" className="memoji__svg pc-only">
@@ -50,13 +50,13 @@ const page2 = () => {
             </div>
             <div className="memoji__info-circle">
             </div>
-            <div className="memoji__info flex">
+            {/* <div className="memoji__info flex">
               한나은
               <br />
               010.2967.9899
               <br />
               1988.09.30
-            </div>
+            </div> */}
             <div className="info">
        <a href="mailto:nehan0930@gmail.com" className="info__button">nehan0930@gmail.com</a>
        <a href="https://github.com/nanaHiii" target="_blank" rel="noopener noreferrer" className="info__button">GITHUB</a>
@@ -85,7 +85,6 @@ const page2 = () => {
       
       <div className="Page2__TextBox-sc-113b8ll-2 fKJRTi flex mobile-only">
       <div>
-          < br />
           <span className="Page2__Bold-sc-113b8ll-3 ieOPZb">Frontend</span>
           라는 무대에서 제 꿈을 현실로 만드는&nbsp; 
           <span className="Page2__Bold-sc-113b8ll-3 ieOPZb">개발자</span>
