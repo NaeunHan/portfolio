@@ -59,7 +59,7 @@ const page2 = () => {
             </div> */}
             <div className="info">
        <a href="mailto:nehan0930@gmail.com" className="info__button">nehan0930@gmail.com</a>
-       <a href="https://github.com/nanaHiii" target="_blank" rel="noopener noreferrer" className="info__button">GITHUB</a>
+       <a href="https://github.com/NaeunHan" target="_blank" rel="noopener noreferrer" className="info__button">GITHUB</a>
        <a href="https://nanahi.tistory.com" target="_blank" rel="noopener noreferrer" className="info__button">DEVELOP.NOTE</a>
        </div>
           </div>
