@@ -20,7 +20,7 @@
     "deploy": "gh-pages -d build",
     "predeploy": "npm run build"
   },
-  "homepage": "http://nanaHiii.github.io/portfolio",
+  "homepage": "http://NaeunHan.github.io/portfolio",
   "eslintConfig": {
     "extends": [
       "react-app",
